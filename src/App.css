@@ -1,3 +1,50 @@
 #root {
   text-align: center;
 }
+
+.loader {
+  position: fixed;
+  background-color: whitesmoke;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  z-index: 100;
+}
+
+.buttonInput {
+  margin-left: 2% !important;
+  margin-right: 2% !important;
+  margin-bottom: 0.5% !important;
+  margin-top: 3%;
+}
+
+.filters {
+  margin-top: 2% !important;
+}
+
+@media screen and (max-width: 650px) {
+  .filterByInput {
+    margin-top: 2% !important;
+  }
+}
+
+.itemPurchase {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(197, 195, 195);
+}
+
+.button-cart {
+  width: 60px;
+  height: 50px;
+}
+
+.box-counter {
+  width: 80px;
+  height: 40px;
+  margin-left: 6%;
+  font-size: 25px;
+}
